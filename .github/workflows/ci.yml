@@ -19,5 +19,8 @@ jobs:
         with:
           version: v1.7.1
 
+      - name: Install dependencies
+        run: npm ci
+
       - name: Run tests
         run: forge test
