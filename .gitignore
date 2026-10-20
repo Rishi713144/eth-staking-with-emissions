@@ -1,5 +1,23 @@
+# Dependencies
 node_modules
+
+# Foundry build artifacts
 cache/
 out/
-.env
 broadcast/
+docs/
+coverage/
+lcov.info
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
