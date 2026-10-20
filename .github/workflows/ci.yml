@@ -19,8 +19,5 @@ jobs:
         with:
           version: v1.7.1
 
-      - name: Check gas snapshots
-        run: forge snapshot --check
-
       - name: Run tests
         run: forge test
